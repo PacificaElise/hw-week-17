@@ -1,7 +1,8 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 700;
+  color: rgb(154, 52, 249);
 }
 
 .wrapper {
@@ -9,12 +10,14 @@ body {
   flex-direction: column;
   gap: 10px;
   flex-wrap: wrap;
-  background-color: rgb(175, 237, 245);
+  background-color: rgb(225, 225, 225);
   max-width: 40vw;
   padding-left: 80px;
   padding-top: 60px;
   justify-content: center;
   align-items: flex-start;
+  border: 2px solid rgb(145, 145, 145);
+  border-radius: 20px;
 }
 
 .comments {
@@ -24,10 +27,18 @@ body {
   flex-wrap: wrap;
 }
 
-input,
-.random {
+input {
   width: 30vw;
   height: 3vw;
+}
+
+.random {
+  width: 30vw;
+  height: 40px;
+  margin-top: 20px;
+  background-color: rgb(214, 255, 91);
+  border: 2px solid #e34761;
+  border-radius: 10px;
 }
 
 textarea {
@@ -38,9 +49,11 @@ textarea {
 .btn,
 .btn2,
 .btn3 {
-  width: 10vw;
-  height: 3vw;
-  background-color: rgb(166, 236, 213);
+  width: 125px;
+  height: 50px;
+  background-color: rgb(214, 255, 91);
+  border: 1px solid #000000;
+  border-radius: 10px;
 }
 
 textarea {
@@ -48,8 +61,9 @@ textarea {
 }
 
 .comments {
-  background-color: azure;
+  background-color: rgb(255, 255, 255);
   text-align: start;
+  width: 30vw;
 }
 
 button,
@@ -62,4 +76,5 @@ input {
   display: flex;
   flex-direction: row;
   gap: 5px;
+  flex-wrap: wrap;
 }
