@@ -1,0 +1,65 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+  background-color: rgb(175, 237, 245);
+  max-width: 40vw;
+  padding-left: 80px;
+  padding-top: 60px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+input,
+.random {
+  width: 30vw;
+  height: 3vw;
+}
+
+textarea {
+  width: 30vw;
+  height: 8vw;
+}
+
+.btn,
+.btn2,
+.btn3 {
+  width: 10vw;
+  height: 3vw;
+  background-color: rgb(166, 236, 213);
+}
+
+textarea {
+  margin-top: 20px;
+}
+
+.comments {
+  background-color: azure;
+  text-align: start;
+}
+
+button,
+textarea,
+input {
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
